@@ -1,0 +1,19 @@
+# Ignore the environment file (contains secrets)
+.env
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore Bundler config
+/.bundle/
+/vendor/bundle/
+
+# Ignore generic Ruby temporary files
+*.gem
+*.rbc
+
+# Ignore standard Mac/Linux clutter
+.DS_Store
+*~
+*.swp
