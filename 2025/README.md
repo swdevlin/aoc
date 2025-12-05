@@ -1,6 +1,6 @@
 # Advent of Code: 2025
 
-Ruby has been on the "to learn" list for a while. When @tankorsmash asked me about this
+Ruby has been on the "to learn" list for a while. When [@tankorsmash](https://github.com/tankorsmash) asked me about this
 year's AoC, it seemed like AoC would be a good opportunity to learn the
 fundamentals of Ruby.
 
@@ -13,7 +13,7 @@ Ruby is OO, so I decided that the code would use classes rather than simple
 functions. This is likely not the best way to tackle the puzzles, but it will help
 with learning Ruby fundamentals.
 
-@tankorsmash suggested writing a script to fetch the data file. Makes good sense. Let's
+[@tankorsmash](https://github.com/tankorsmash) suggested writing a script to fetch the data file. Makes good sense. Let's
 learn some Ruby libraries. Easy peasy.
 
 Unit tests are written against the sample test data in the question.
