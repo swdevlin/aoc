@@ -44,12 +44,12 @@ class DayTest < Minitest::Test
   end
 
   def test_grand_total
-    total = @challenge.grand_total(file_name: @data_file)
-    assert_equal(total, 4277556)
+    @challenge.load_file(file_name: @data_file)
+    assert_equal(4277556, @challenge.grand_total)
   end
 
   def test_right_to_left_grand_total
-    total = @challenge.right_to_left_grand_total(file_name: @data_file)
-    assert_equal(total, 3263827)
+    @challenge.right_to_left_loader(file_name: @data_file)
+    assert_equal(3263827, @challenge.grand_total)
   end
 end

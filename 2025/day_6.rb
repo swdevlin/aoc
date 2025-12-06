@@ -82,13 +82,7 @@ class Challenge
     end
   end
 
-  def grand_total(file_name:)
-    load_file(file_name: file_name)
-    @problems.sum {|p| p.compute }
-  end
-
-  def right_to_left_grand_total(file_name:)
-    right_to_left_loader(file_name: file_name)
+  def grand_total
     @problems.sum {|p| p.compute }
   end
 end
@@ -97,11 +91,15 @@ def run()
   data_file = File.join(__dir__, "data", "day_6.txt")
   challenge = Challenge.new
 
-  total = challenge.grand_total(file_name: data_file)
+  total = challenge.load_file(file_name: data_file)
+  total = challenge.grand_total()
   puts "Math problems add to #{total}"
 
-  total = challenge.right_to_left_grand_total(file_name: data_file)
+  challenge = Challenge.new
+  challenge.right_to_left_loader(file_name: data_file)
+  total = challenge.grand_total()
   puts "Proper cephalopod math problems add to #{total}"
+
 end
 
 if __FILE__ == $0
