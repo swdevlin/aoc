@@ -61,3 +61,13 @@ But that's not gonna help learning.
 The solution to 5a would work for 5b if one could wait long enough. Efficient, it is not.
 A different approach was needed for 5b. Once I realized that I could keep the list in order,
 the solution was trivial.
+
+## Day 6
+
+TIL: Data class, operator methods, and equality.
+
+I ended up not using Data.define as the code assigns the operator at the end. I liked the idea of 
+building the Problem up on the fly as opposed to creating it at the end. This approach lead me
+to learn about operator methods and object equality.
+
+The challenge itself was straightforward.

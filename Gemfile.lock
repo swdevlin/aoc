@@ -1,6 +1,8 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     dotenv (3.1.8)
+    minitest (5.26.2)
 
 PLATFORMS
   ruby
@@ -9,6 +11,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
+  minitest
 
 BUNDLED WITH
    2.7.2
