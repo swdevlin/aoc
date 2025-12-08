@@ -71,3 +71,19 @@ building the Problem up on the fly as opposed to creating it at the end. This ap
 to learn about operator methods and object equality.
 
 The challenge itself was straightforward.
+
+## Day 7
+
+TIL: Set
+
+It makes sense that Ruby would have a good set of collection classes (no pun intended). The ability to set default values
+for Hash keys means code using them is a lot cleaner. No need to write code to handle a key not exists before using its
+value.
+
+Continuing on the OO path, a Challenge class was created to work as the base class for puzzles going forward. First pass
+at the class had the constructor take a file and load the contents. That made unit testing more difficult than it should 
+be. The filename parameter was made optional so tests can be written without needing a data file.
+
+It took a while to figure out what part 2 was asking. Coding the solution was straightfoward after that.
+
+
