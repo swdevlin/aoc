@@ -12,11 +12,15 @@ class Challenge
     File.foreach(filename, chomp: true) {|line| @lines << line}
   end
 
-  def part_one()
+  def line(i)
+    @lines.length > i ? @lines[i] : nil
+  end
+
+  def part_one
     puts 'not implemented'
   end
 
-  def part_two()
+  def part_two
     puts 'not implemented'
   end
 end

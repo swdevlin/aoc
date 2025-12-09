@@ -17,3 +17,5 @@
 .DS_Store
 *~
 *.swp
+
+/2025/data/

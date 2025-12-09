@@ -86,4 +86,7 @@ be. The filename parameter was made optional so tests can be written without nee
 
 It took a while to figure out what part 2 was asking. Coding the solution was straightfoward after that.
 
+## Day 8
 
+I could not figure out the problem in part 1. Eventually I had to get a hint. Once the light went on,
+coding was straightforward. Part 2 was basically a no-op.
